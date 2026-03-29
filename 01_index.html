@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagle Air</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="02_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR (vide pour l'instant) -->
+    <nav>
+    <div class="logo">
+        <h1>EAGLE AIR ✈️</h1>
+    </div>
+
+    <!-- Hamburger -->
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+    
+
+    <!-- Menu -->
+    <ul class="navbar" id="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+    <!-- HERO (vide pour l'instant) -->
+<section id="home" class="hero page active">
+    <div class="hero-content">
+        <h1>Fly With Eagle Air</h1>
+        <p>Your journey begins with comfort and safety</p>
+
+        <div class="hero-buttons">
+            <a href="#" class="btn review-btn">Review Now</a>
+            <a href="https://wa.me/18091234567?text=Hello%20Eagle%20Air%20I%20want%20information%20about%20your%20services" class="btn contact-btn" target="_blank">Contact Us</a>
+        </div>
+    </div>
+</section>
+<section id="about" class="about page">
+    <div class="about-container">
+
+        <div class="about-text">
+            <h2>About Eagle Air</h2>
+            <p>
+                Eagle Air is committed to providing safe, reliable, and comfortable
+                air travel experiences across the world.
+            </p>
+            <p>
+                Our mission is to connect people and places with excellence,
+                innovation, and top-tier service.
+            </p>
+            <a href="#" class="about-btn">Learn More</a>
+        </div>
+
+        <div class="about-image">
+            <img src="plane.jpg" alt="Airplane">
+        </div>
+
+    </div>
+</section>
+<section id="services" class="services page">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services-container">
+
+        <div class="service-card">
+            <h3>Flight Booking</h3>
+            <p>Book flights easily with the best prices and comfort.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Private Jet</h3>
+            <p>Luxury private jet services for premium clients.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Cargo Transport</h3>
+            <p>Fast and secure air cargo delivery worldwide.</p>
+        </div>
+
+    </div>
+</section>
+<section id="contact" class="contact page">
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="contact-container">
+        <form class="contact-form">
+
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+    </div>
+</section>
+    
+    <footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+            <h2>Eagle Air ✈️</h2>
+            <p>Fly safe. Fly smart.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Contact</h3>
+            <p>Email: eagleair@email.com</p>
+            <p>Phone: +123 456 789</p>
+        </div>
+        <div class="footer-socials">
+            <h3>Follow Us</h3>
+
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+<p>© <span id="year"></span> Eagle Air. All rights reserved.</p>    </div>
+
+</footer>
+ <!-- JS -->
+    <script src="03_script.js"></script>
+</body>
+</html>
